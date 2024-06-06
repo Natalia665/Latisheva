@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Правильное Питание</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Проектирование и Разработка Приложения по Организации Правильного Питания</h1>
+        <nav>
+            <ul>
+                <li><a href="#about"><button onclick="window.location.href='index.html'">Описание</button></a></li>
+                <li><a href="#features"><button onclick="window.location.href='index2.html'">Еда дня!</button></a></li>
+                <li><a href="#contact"><button onclick="window.location.href='index3.html'">Контакты</button></a></li>
+            </ul>
+        </nav>
+        <button id="login-btn" class="button-primary">Вход</button>
+        <button id="developer-btn" class="button-secondary">Разработчик</button>
+    </header>
+
+    <!-- Your content sections here -->
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Вход</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Логин:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="button-primary">Войти</button>
+            </form>
+        </div>
+    </div>
+	
+	<section id="about">
+        <h2>Описание</h2>
+        <p>Правильное питание необходимо для поддержания здоровья, повышения уровня энергии и улучшения общего самочувствия. Здоровый рацион помогает предотвратить различные заболевания, включая ожирение, диабет, сердечно-сосудистые заболевания и даже некоторые виды рака.</p>
+    </section>
+
+    <section id="importance">
+        <h2>Зачем необходимо правильное питание?</h2>
+        <ul>
+            <li>Поддерживает здоровье и самочувствие</li>
+            <li>Укрепляет иммунную систему</li>
+            <li>Улучшает настроение и когнитивные функции</li>
+            <li>Помогает предотвратить хронические заболевания</li>
+        </ul>
+    </section>
+
+    <section id="how-to-eat">
+        <h2>Как правильно питаться?</h2>
+        <p>Для правильного питания рекомендуется:</p>
+        <ul>
+            <li>Употреблять разнообразные продукты, богатые витаминами, минералами и другими полезными веществами.</li>
+            <li>Ограничить потребление сахара, соли и насыщенных жиров.</li>
+            <li>Регулярно есть в одно и то же время, не пропуская приемы пищи.</li>
+            <li>Пить достаточное количество воды.</li>
+            <li>Включать в рацион больше овощей и фруктов, цельнозерновых продуктов и нежирного белка.</li>
+        </ul>
+    </section>
+
+    <section id="do-dont-list">
+        <h2>Что можно делать и чего нельзя при правильном питании?</h2>
+        <p>Следует избегать:</p>
+        <ul>
+            <li>Переедания, особенно поздно вечером</li>
+            <li>Частого употребления фаст-фуда и полуфабрикатов</li>
+            <li>Замены основных приемов пищи перекусами</li>
+            <li>Злоупотребления кофеином и алкоголем</li>
+        </ul>
+        <p>Вместо этого рекомендуется:</p>
+        <ul>
+            <li>Регулярно готовить домашнюю еду</li>
+            <li>Употреблять натуральные продукты</li>
+            <li>Следить за размером порций</li>
+            <li>Добавлять в рацион пробиотики для поддержания здоровья кишечника</li>
+        </ul>
+    </section>
+
+    <!-- Developer Modal -->
+    <div id="developer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Данные пользователей</h2>
+            <div id="user-data"></div>
+            <button id="clear-data-btn" class="button-secondary">Очистить данные</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Латышева Наталья (ИС-21).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

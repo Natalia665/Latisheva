@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Еда дня</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+        <h1>Проектирование и Разработка Приложения по Организации Правильного Питания</h1>
+        <nav>
+            <ul>
+                <li><a href="#about"><button onclick="window.location.href='index.html'">Описание</button></a></li>
+                <li><a href="#features"><button onclick="window.location.href='index2.html'">Еда дня !</button></a></li>
+				<li><a href="#contact"><button onclick="window.location.href='index3.html'">Контакты</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section-2">
+        <h2>Еда дня</h2>
+        <p>Нажмите на кнопку ниже, чтобы получить рекомендацию полезного блюда на сегодня вместе с рецептом.</p>
+        <button id="foodOfTheDay">ЕДА ДНЯ</button>
+		<div id="recipeContainer">
+        <h2 id="foodTitle"></h2>
+        <img id="foodImage" src="" alt="" style="max-width: 700px; display: block;">
+        <p id="foodRecipe"></p>
+    </div>
+        <div id="recipeContainer" style="display:none;">
+            <h3 id="foodTitle"></h3>
+            <p id="foodRecipe"></p>
+        </div>
+    </section>
+	<script src="script.js"></script>
+</body>
+</html>

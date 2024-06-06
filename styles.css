@@ -3,7 +3,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-	background-image: url(../image.jpg);
+	background-image: url(img/image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +12,7 @@ header {
     color: #FF4500;
     padding: 50px 0;
     text-align: center;
-	background-image: url(../image2.jpg);
+	background-image: url(img/image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
